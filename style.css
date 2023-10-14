@@ -31,6 +31,7 @@ main{
   transition: 1s;
 }
 header{
+  width: 80%;
   display: flex;
   justify-content: space-between;
   margin: 27px 24px 55px 24px;
@@ -55,6 +56,12 @@ header{
   width: 40px;
   height: 40px;
   flex-shrink: 0;
+}
+.advertising{
+  margin-bottom: 4rem;
+}
+.type{
+  margin-bottom: 4rem;
 }
 
 /* main */
@@ -248,7 +255,7 @@ span{
   line-height: 26px; 
 }
 
-@media (min-width:450px) {
+@media (min-width:530px) {
   header{
    display: flex;
    justify-content: space-between;
@@ -447,4 +454,30 @@ span{
     cursor: pointer;
     transition: 1s;
    }
+  }
+  @media(min-width:1700px){
+    header{
+      width: 65%;
+      transition: 1s;
+    }
+    .logo{
+      width: 60px;
+      height: 60px;
+      transition: 1s;
+    }
+    .third-line{
+      transition: 0.5s;
+      gap: 7rem;
+      margin-right: 4rem;
+    }
+    .fifth{
+      margin-top: 5rem;
+      margin-left: -10rem;
+    }
+    .second{
+      margin-left: -15rem;
+    }
+    .first{
+      margin-right: 35rem;
+    }
   }
