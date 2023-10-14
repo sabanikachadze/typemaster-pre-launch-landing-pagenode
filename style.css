@@ -27,7 +27,7 @@ main{
   width: 34rem;
   position: relative;
   left: 3.5rem;
-  border-radius: 20px 0px 0px 20px;
+  border-radius:20px;
   transition: 1s;
 }
 header{
