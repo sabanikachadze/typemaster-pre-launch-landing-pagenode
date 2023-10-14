@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family:  "Barlow" , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+display: flex;
+flex-direction:column;
+}
+
+
+/* header */
+main{
+  display: flex;
+  flex-direction: column;
+}
+.second{
+  height: 30rem;
+  background: url(mobile/image-keyboard.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5rem;
+  width: 34rem;
+  position: relative;
+  left: 3.5rem;
+  border-radius: 20px 0px 0px 20px;
+  transition: 1s;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 27px 24px 55px 24px;
+}
+.grey-button{
+  border: none;
+  color: #162542;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+  text-transform: uppercase;
+  padding: 11px 14px;
+  width: 150px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #E8EFF2;
+  transition: 1s;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+/* main */
+
+.advertising{
+  width: 327px;
+}
+.type{
+  width: 327px;
+  color: #162542;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.advertising{
+  width: 327px;
+  color: #7B8BAD;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+ 
+}
+.flex-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 1s;
+}
+.first{
+  width: 330px;
+  margin: auto;
+  transition: 1s;
+}
+.orange-button{
+  width: 150px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F16718;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  transition: 1s;
+}
+.date{
+  color: #7B8BAD;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+  text-transform: uppercase;
+}
+.definition{
+  width: 255px;
+  color: #162542;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; 
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.about{
+  width: 327px;
+  color: #7B8BAD;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  transition: 1s;
+}
+.third-line{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6rem ;
+  transition: 1s;
+}
+.third{
+
+  width: 11rem;
+  height: 17rem;
+  margin-top: 2rem;
+  border-radius: 0px 20px 20px 0px;
+  position: relative;
+  isolation: isolate;
+  background: #F16718;
+  transition: 1s;
+ 
+}
+
+.third:after{
+content: '';
+position: absolute;
+z-index: -1;
+border-radius: 20px;
+background: url(mobile/image-phone-and-keyboard.jpg)lightgray 0px 0px / 100% 100% no-repeat;
+background-size:cover;
+opacity: 0.3;
+inset: 0;
+border-radius: 0px 20px 20px 0px;
+transition: 1s;
+}
+
+.forth{
+  background: url(mobile/image-glass-and-keyboard.jpg);
+  height: 17rem;
+  width: 21rem;
+  margin-top: 2rem;
+  background-size: cover;
+  border-radius: 20px 0px 0px 20px;
+  transition: 1s;
+}
+.fifth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 11rem;
+  transition: 1s;
+}
+
+
+
+
+
+/* section */
+.big-text{
+  width: 327px;
+  color: #162542;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; 
+  text-transform: uppercase;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.small-text{
+  width: 327px;
+  color: #7B8BAD;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+  transition: 1s;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+}
+  
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 96px 52px 50px 51px;
+}
+.footer-stuff{
+  color: #7B8BAD;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+span{
+  color: #7B8BAD;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+}
+
+@media (min-width:450px) {
+  header{
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   margin: auto;
+   margin-top: 3REM;
+   transition: 1s;
+  }
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 200px ;
+  }
+ .third-line{
+  grid-column: 1 / 3;
+  grid-row: 2/3;
+ }
+ .third-line{
+  justify-content: space-around;
+  transition: 1s;
+ }
+ .third{
+  border-radius: 20px;
+  height: 28rem;
+  width: 21rem;
+  transition: 1s;
+ }
+ .third:after{
+  background: url(tablet/image-phone-and-keyboard.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  height: 28rem;
+  width: 21rem;
+  transition: 1s;
+ }
+ .forth{
+  width: 40rem;
+  border-radius: 20px;
+  height: 28rem;
+  background: url(tablet/image-glass-and-keyboard.jpg);
+  background-size: cover;
+  transition: 1s;
+ }
+ .second{
+  background: url(tablet/image-keyboard.jpg);
+  background-size: cover;
+  height: 40rem;
+  transition: 1s;
+ }
+ .fifth{
+    grid-column: 1 / 3;
+    grid-row: 3/4;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   width: 80%;
+   margin: auto;
+  justify-content: flex-start;
+  transition: 1s;
+  margin-bottom: 5rem;
+ }
+ .definition{
+  width: 255px;
+  color: #162542;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; 
+  text-transform: uppercase; 
+  text-align: left;
+ }
+ .about{
+  width: 398px;
+  color: #7B8BAD;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  transition: 1s;
+ }
+  section{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+ }
+}
+@media(min-width:850px){
+  header{
+    width: 75%;
+    transition: 1s;
+  }
+  .second{
+    background: url(desktop/image-keyboard.jpg);
+    background-size: cover;
+    width: 45rem;
+    border-radius:20px ;
+    transition: 1s;
+  }
+  .third-line{
+    grid-column: 1 / 2;
+    grid-row: 2/3;
+    transition: 1s;
+   }
+   .third-line{
+    justify-content: end;
+    gap: 1rem;
+    transition: 1s;
+   }
+   .fifth{
+    grid-column:  2/ 3;
+    grid-row: 2/3;
+    flex-direction: column;
+    transition: 1s;
+   }
+   main{
+    grid-template-rows: 1fr 1fr  ;
+    grid-template-columns: 3fr 2fr;
+    row-gap: 2rem;
+   }
+   .third{
+    border-radius: 20px;
+    height: 38rem;
+    width: 21rem;
+    transition: 1s;
+   }
+   .third:after{
+    background: url(desktop/image-phone-and-keyboard.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 38rem;
+    width: 21rem;
+    transition: 1s;
+   }
+   .forth{
+    background: url(desktop/image-glass-and-keyboard.jpg);
+    background-size: cover;
+    height: 38rem;
+    width: 40rem;
+    transition: 1s;
+   }
+   .big-text{
+    width: 255px;
+    color: #162542;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; 
+    text-transform: uppercase;
+   }
+   .small-text{
+    width: 255px;
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+   }
+   section{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+   }
+   .definition{
+    width: 255px;
+    color: #162542;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; 
+    text-transform: uppercase;
+    
+   }
+   .about{
+    width: 255px;
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    text-align: left;
+   }
+   .grey-button:hover{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #162542;
+    cursor: pointer;
+    transition: 1s;
+   }
+   .orange-button:hover{
+    border-radius: 8px;
+    background: #FF9B62;
+    cursor: pointer;
+    transition: 1s;
+   }
+  }
